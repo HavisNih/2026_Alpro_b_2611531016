@@ -23,7 +23,7 @@ print("Biner hasil (8 bit) =", format(hasil_1016, '08b'))
 # Bitwise OR
 hasil_1016 = angka1_1016 | angka2_1016
 print("\nBitwise OR (|)")
-print(angka1_1016, "|", angka2_1016, "|", hasil_1016)
+print(angka1_1016, "|", angka2_1016, "=", hasil_1016)
 print("Biner hasil =", bin(hasil_1016))
 print("Biner hasil (8 bit) =", format(hasil_1016, "08b"))
 

@@ -27,7 +27,7 @@ print(nilai_dicari_1016, "not in", data_1016, "=", hasil_1016)
 
 
 print("===================================")
-print("1. OPERATOR IDENTITAS")
+print("2. OPERATOR IDENTITAS")
 print("===================================")
 
 #objek1 menggunakan list dari input pengguna
