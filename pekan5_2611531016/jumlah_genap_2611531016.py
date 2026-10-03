@@ -3,7 +3,7 @@
 # Nama variabel ditambah 4 digit nim terakhir
 # Program ini menggunakan fungsi input()
 
-ulang_1016 = int(input("Masukkan jumlah perulangan = "))
+ulang_1016 = int(input("Masukkan nilai batas = "))
 
 jumlah_1016 = 0
 for i_1016 in range(1, ulang_1016 + 1):
