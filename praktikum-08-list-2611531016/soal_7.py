@@ -1,7 +1,7 @@
 menus = ["Nasi Goreng", "Mie Ayam", "Soto"]
 number_of_days = 3
 sales = []
-# Write your code below
+# Write your code below 
 
 for day in range(number_of_days):
     row = []
