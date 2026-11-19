@@ -1,7 +1,7 @@
 LAST_DIGIT = 6  # change to the last digit of your NIM
 daily_limit = 30000 + LAST_DIGIT * 1000
 expenses = []
-# Write your code below
+# Write your code below 
 
 for i in range(7):
     expenses.append(int(input(f"Day {i + 1}: ")))
