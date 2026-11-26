@@ -1,19 +1,17 @@
-setoran = int(input("Masukkan jumlah setoran: "))
+setoran = int(input("Masukkan jumlah data: "))
 data = {}
+
 for i in range(setoran):
-    nama, total = input("Masukkan nama dan total setoran: ").split()
-    data[nama] = int(total)
+    nama, cash = input("Masukkan nama dan total setoran: ").split()
+    cash = int(cash)
+    data[nama] = data.get(nama, 0) + cash
 
-name = ""
-total = 0
-for nama, total_setoran in data.items():
-    print(f"{nama}: {total_setoran}")
-    if nama in data:
-        data[nama] += total_setoran
-    if total_setoran > total:
-        name = nama
-        total = total_setoran
+terbanyak = 0
+for nama, cash in data.items():
+    print(f"{nama}: {cash}")
+    if cash > terbanyak:
+        terbanyak = cash
+        top = nama
 
-total_cash = sum(data.values())
-print("Total cash:", total_cash)
-print("Top contributor: ", name, total)
+print(f"Total cash: {sum(data.values())}")
+print(f"Top contributor: {top} ({terbanyak})")
