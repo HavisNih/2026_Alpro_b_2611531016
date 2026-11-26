@@ -7,6 +7,7 @@ for i in range(setoran):
     data[nama] = data.get(nama, 0) + cash
 
 terbanyak = 0
+top = ""
 for nama, cash in data.items():
     print(f"{nama}: {cash}")
     if cash > terbanyak:
